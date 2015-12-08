@@ -150,14 +150,12 @@ const int NetworkLogic::getPlayerId() const
 
 void NetworkLogic::customEventAction(int playerNr, nByte eventCode, const ExitGames::Common::Object& eventContent)
 {
-    ExitGames::Common::Hashtable* event;
-    
     switch (eventCode)
     {
         case 1:
-            event = ExitGames::Common::ValueObject<ExitGames::Common::Hashtable*>(eventContent).getDataCopy();
-            float x = ExitGames::Common::ValueObject<float>(event->getValue(1)).getDataCopy();
-            float y = ExitGames::Common::ValueObject<float>(event->getValue(2)).getDataCopy();
+            ExitGames::Common::Hashtable* event { ExitGames::Common::ValueObject<ExitGames::Common::Hashtable*>(eventContent).getDataCopy() };
+            float x { ExitGames::Common::ValueObject<float>(event->getValue(1)).getDataCopy() };
+            float y { ExitGames::Common::ValueObject<float>(event->getValue(2)).getDataCopy() };
             eventQueue.push({static_cast<float>(playerNr), x, y});
             break;
     }
