@@ -67,11 +67,11 @@
 		5946CA501C1451D800DCFD86 /* libPhoton-cpp_debug_iphonesimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5946C09C1C1451D700DCFD86 /* libPhoton-cpp_debug_iphonesimulator.a */; };
 		5946CA511C1451D800DCFD86 /* libPhoton-cpp_release_iphoneos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5946C09D1C1451D700DCFD86 /* libPhoton-cpp_release_iphoneos.a */; };
 		5946CA521C1451D800DCFD86 /* libPhoton-cpp_release_iphonesimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5946C09E1C1451D700DCFD86 /* libPhoton-cpp_release_iphonesimulator.a */; };
-		59B053191C145FD0001C13F2 /* libLoadBalancing-cpp_debug_iphoneos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 59B053151C145FD0001C13F2 /* libLoadBalancing-cpp_debug_iphoneos.a */; };
-		59B0531A1C145FD0001C13F2 /* libLoadBalancing-cpp_debug_iphonesimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 59B053161C145FD0001C13F2 /* libLoadBalancing-cpp_debug_iphonesimulator.a */; };
-		59B0531B1C145FD0001C13F2 /* libLoadBalancing-cpp_release_iphoneos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 59B053171C145FD0001C13F2 /* libLoadBalancing-cpp_release_iphoneos.a */; };
-		59B0531C1C145FD0001C13F2 /* libLoadBalancing-cpp_release_iphonesimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 59B053181C145FD0001C13F2 /* libLoadBalancing-cpp_release_iphonesimulator.a */; };
 		59CB6E1F1C16029300C8D368 /* NetworkLogic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 59CB6E1D1C16029300C8D368 /* NetworkLogic.cpp */; };
+		59CB6E4D1C16BA5400C8D368 /* libLoadBalancing-cpp_debug_iphoneos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 59CB6E491C16BA5400C8D368 /* libLoadBalancing-cpp_debug_iphoneos.a */; };
+		59CB6E4E1C16BA5400C8D368 /* libLoadBalancing-cpp_debug_iphonesimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 59CB6E4A1C16BA5400C8D368 /* libLoadBalancing-cpp_debug_iphonesimulator.a */; };
+		59CB6E4F1C16BA5400C8D368 /* libLoadBalancing-cpp_release_iphoneos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 59CB6E4B1C16BA5400C8D368 /* libLoadBalancing-cpp_release_iphoneos.a */; };
+		59CB6E501C16BA5400C8D368 /* libLoadBalancing-cpp_release_iphonesimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 59CB6E4C1C16BA5400C8D368 /* libLoadBalancing-cpp_release_iphonesimulator.a */; };
 		8262943E1AAF051F00CB7CF7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8262943D1AAF051F00CB7CF7 /* Security.framework */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
@@ -251,46 +251,46 @@
 		5946C09C1C1451D700DCFD86 /* libPhoton-cpp_debug_iphonesimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libPhoton-cpp_debug_iphonesimulator.a"; sourceTree = "<group>"; };
 		5946C09D1C1451D700DCFD86 /* libPhoton-cpp_release_iphoneos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libPhoton-cpp_release_iphoneos.a"; sourceTree = "<group>"; };
 		5946C09E1C1451D700DCFD86 /* libPhoton-cpp_release_iphonesimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libPhoton-cpp_release_iphonesimulator.a"; sourceTree = "<group>"; };
-		59B052EE1C145FD0001C13F2 /* AuthenticationValues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthenticationValues.h; sourceTree = "<group>"; };
-		59B052EF1C145FD0001C13F2 /* Client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Client.h; sourceTree = "<group>"; };
-		59B052F11C145FD0001C13F2 /* CustomAuthenticationType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAuthenticationType.h; sourceTree = "<group>"; };
-		59B052F21C145FD0001C13F2 /* DisconnectCause.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisconnectCause.h; sourceTree = "<group>"; };
-		59B052F31C145FD0001C13F2 /* ErrorCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ErrorCode.h; sourceTree = "<group>"; };
-		59B052F41C145FD0001C13F2 /* LobbyType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LobbyType.h; sourceTree = "<group>"; };
-		59B052F51C145FD0001C13F2 /* MatchmakingMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchmakingMode.h; sourceTree = "<group>"; };
-		59B052F61C145FD0001C13F2 /* PeerStates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeerStates.h; sourceTree = "<group>"; };
-		59B052F71C145FD0001C13F2 /* ServerType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerType.h; sourceTree = "<group>"; };
-		59B052F81C145FD0001C13F2 /* FriendInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendInfo.h; sourceTree = "<group>"; };
-		59B052FA1C145FD0001C13F2 /* AuthenticationValuesSecretSetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthenticationValuesSecretSetter.h; sourceTree = "<group>"; };
-		59B052FC1C145FD0001C13F2 /* EventCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventCode.h; sourceTree = "<group>"; };
-		59B052FD1C145FD0001C13F2 /* JoinType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JoinType.h; sourceTree = "<group>"; };
-		59B052FE1C145FD0001C13F2 /* OperationCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationCode.h; sourceTree = "<group>"; };
-		59B052FF1C145FD0001C13F2 /* ParameterCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParameterCode.h; sourceTree = "<group>"; };
-		59B053011C145FD0001C13F2 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
-		59B053021C145FD0001C13F2 /* Room.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Room.h; sourceTree = "<group>"; };
-		59B053031C145FD0001C13F2 /* MutablePlayerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutablePlayerFactory.h; sourceTree = "<group>"; };
-		59B053041C145FD0001C13F2 /* MutableRoomFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutableRoomFactory.h; sourceTree = "<group>"; };
-		59B053051C145FD0001C13F2 /* PlayerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerFactory.h; sourceTree = "<group>"; };
-		59B053061C145FD0001C13F2 /* PlayerMovementInformant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerMovementInformant.h; sourceTree = "<group>"; };
-		59B053071C145FD0001C13F2 /* PlayerPropertiesCacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerPropertiesCacher.h; sourceTree = "<group>"; };
-		59B053081C145FD0001C13F2 /* PlayerPropertiesUpdateInformant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerPropertiesUpdateInformant.h; sourceTree = "<group>"; };
-		59B053091C145FD0001C13F2 /* RoomFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoomFactory.h; sourceTree = "<group>"; };
-		59B0530A1C145FD0001C13F2 /* RoomPropertiesCacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoomPropertiesCacher.h; sourceTree = "<group>"; };
-		59B0530B1C145FD0001C13F2 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
-		59B0530C1C145FD0001C13F2 /* Listener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Listener.h; sourceTree = "<group>"; };
-		59B0530D1C145FD0001C13F2 /* LobbyStatsRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LobbyStatsRequest.h; sourceTree = "<group>"; };
-		59B0530E1C145FD0001C13F2 /* LobbyStatsResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LobbyStatsResponse.h; sourceTree = "<group>"; };
-		59B0530F1C145FD0001C13F2 /* MutablePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutablePlayer.h; sourceTree = "<group>"; };
-		59B053101C145FD0001C13F2 /* MutableRoom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutableRoom.h; sourceTree = "<group>"; };
-		59B053111C145FD0001C13F2 /* Peer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Peer.h; sourceTree = "<group>"; };
-		59B053121C145FD0001C13F2 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
-		59B053131C145FD0001C13F2 /* Room.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Room.h; sourceTree = "<group>"; };
-		59B053151C145FD0001C13F2 /* libLoadBalancing-cpp_debug_iphoneos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libLoadBalancing-cpp_debug_iphoneos.a"; sourceTree = "<group>"; };
-		59B053161C145FD0001C13F2 /* libLoadBalancing-cpp_debug_iphonesimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libLoadBalancing-cpp_debug_iphonesimulator.a"; sourceTree = "<group>"; };
-		59B053171C145FD0001C13F2 /* libLoadBalancing-cpp_release_iphoneos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libLoadBalancing-cpp_release_iphoneos.a"; sourceTree = "<group>"; };
-		59B053181C145FD0001C13F2 /* libLoadBalancing-cpp_release_iphonesimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libLoadBalancing-cpp_release_iphonesimulator.a"; sourceTree = "<group>"; };
 		59CB6E1D1C16029300C8D368 /* NetworkLogic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NetworkLogic.cpp; sourceTree = "<group>"; };
 		59CB6E1E1C16029300C8D368 /* NetworkLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkLogic.h; sourceTree = "<group>"; };
+		59CB6E221C16BA5400C8D368 /* AuthenticationValues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthenticationValues.h; sourceTree = "<group>"; };
+		59CB6E231C16BA5400C8D368 /* Client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Client.h; sourceTree = "<group>"; };
+		59CB6E251C16BA5400C8D368 /* CustomAuthenticationType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAuthenticationType.h; sourceTree = "<group>"; };
+		59CB6E261C16BA5400C8D368 /* DisconnectCause.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisconnectCause.h; sourceTree = "<group>"; };
+		59CB6E271C16BA5400C8D368 /* ErrorCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ErrorCode.h; sourceTree = "<group>"; };
+		59CB6E281C16BA5400C8D368 /* LobbyType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LobbyType.h; sourceTree = "<group>"; };
+		59CB6E291C16BA5400C8D368 /* MatchmakingMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchmakingMode.h; sourceTree = "<group>"; };
+		59CB6E2A1C16BA5400C8D368 /* PeerStates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeerStates.h; sourceTree = "<group>"; };
+		59CB6E2B1C16BA5400C8D368 /* ServerType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerType.h; sourceTree = "<group>"; };
+		59CB6E2C1C16BA5400C8D368 /* FriendInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendInfo.h; sourceTree = "<group>"; };
+		59CB6E2E1C16BA5400C8D368 /* AuthenticationValuesSecretSetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthenticationValuesSecretSetter.h; sourceTree = "<group>"; };
+		59CB6E301C16BA5400C8D368 /* EventCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventCode.h; sourceTree = "<group>"; };
+		59CB6E311C16BA5400C8D368 /* JoinType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JoinType.h; sourceTree = "<group>"; };
+		59CB6E321C16BA5400C8D368 /* OperationCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationCode.h; sourceTree = "<group>"; };
+		59CB6E331C16BA5400C8D368 /* ParameterCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParameterCode.h; sourceTree = "<group>"; };
+		59CB6E351C16BA5400C8D368 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		59CB6E361C16BA5400C8D368 /* Room.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Room.h; sourceTree = "<group>"; };
+		59CB6E371C16BA5400C8D368 /* MutablePlayerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutablePlayerFactory.h; sourceTree = "<group>"; };
+		59CB6E381C16BA5400C8D368 /* MutableRoomFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutableRoomFactory.h; sourceTree = "<group>"; };
+		59CB6E391C16BA5400C8D368 /* PlayerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerFactory.h; sourceTree = "<group>"; };
+		59CB6E3A1C16BA5400C8D368 /* PlayerMovementInformant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerMovementInformant.h; sourceTree = "<group>"; };
+		59CB6E3B1C16BA5400C8D368 /* PlayerPropertiesCacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerPropertiesCacher.h; sourceTree = "<group>"; };
+		59CB6E3C1C16BA5400C8D368 /* PlayerPropertiesUpdateInformant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerPropertiesUpdateInformant.h; sourceTree = "<group>"; };
+		59CB6E3D1C16BA5400C8D368 /* RoomFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoomFactory.h; sourceTree = "<group>"; };
+		59CB6E3E1C16BA5400C8D368 /* RoomPropertiesCacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoomPropertiesCacher.h; sourceTree = "<group>"; };
+		59CB6E3F1C16BA5400C8D368 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		59CB6E401C16BA5400C8D368 /* Listener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Listener.h; sourceTree = "<group>"; };
+		59CB6E411C16BA5400C8D368 /* LobbyStatsRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LobbyStatsRequest.h; sourceTree = "<group>"; };
+		59CB6E421C16BA5400C8D368 /* LobbyStatsResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LobbyStatsResponse.h; sourceTree = "<group>"; };
+		59CB6E431C16BA5400C8D368 /* MutablePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutablePlayer.h; sourceTree = "<group>"; };
+		59CB6E441C16BA5400C8D368 /* MutableRoom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutableRoom.h; sourceTree = "<group>"; };
+		59CB6E451C16BA5400C8D368 /* Peer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Peer.h; sourceTree = "<group>"; };
+		59CB6E461C16BA5400C8D368 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		59CB6E471C16BA5400C8D368 /* Room.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Room.h; sourceTree = "<group>"; };
+		59CB6E491C16BA5400C8D368 /* libLoadBalancing-cpp_debug_iphoneos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libLoadBalancing-cpp_debug_iphoneos.a"; sourceTree = "<group>"; };
+		59CB6E4A1C16BA5400C8D368 /* libLoadBalancing-cpp_debug_iphonesimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libLoadBalancing-cpp_debug_iphonesimulator.a"; sourceTree = "<group>"; };
+		59CB6E4B1C16BA5400C8D368 /* libLoadBalancing-cpp_release_iphoneos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libLoadBalancing-cpp_release_iphoneos.a"; sourceTree = "<group>"; };
+		59CB6E4C1C16BA5400C8D368 /* libLoadBalancing-cpp_release_iphonesimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libLoadBalancing-cpp_release_iphonesimulator.a"; sourceTree = "<group>"; };
 		8262943D1AAF051F00CB7CF7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
@@ -309,15 +309,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED545A7C1B68A1F400C3958E /* libiconv.dylib in Frameworks */,
-				59B0531A1C145FD0001C13F2 /* libLoadBalancing-cpp_debug_iphonesimulator.a in Frameworks */,
+				59CB6E4E1C16BA5400C8D368 /* libLoadBalancing-cpp_debug_iphonesimulator.a in Frameworks */,
 				52B47A471A53D09C004E4C60 /* Security.framework in Frameworks */,
 				1AC6FB30180E99EB004C840B /* libcocos2d iOS.a in Frameworks */,
-				59B0531C1C145FD0001C13F2 /* libLoadBalancing-cpp_release_iphonesimulator.a in Frameworks */,
+				59CB6E501C16BA5400C8D368 /* libLoadBalancing-cpp_release_iphonesimulator.a in Frameworks */,
 				5946C0D71C1451D700DCFD86 /* libCommon-cpp_debug_iphonesimulator.a in Frameworks */,
 				5946CA501C1451D800DCFD86 /* libPhoton-cpp_debug_iphonesimulator.a in Frameworks */,
 				D6B0611B1803AB670077942B /* CoreMotion.framework in Frameworks */,
 				5946C0D61C1451D700DCFD86 /* libCommon-cpp_debug_iphoneos.a in Frameworks */,
-				59B0531B1C145FD0001C13F2 /* libLoadBalancing-cpp_release_iphoneos.a in Frameworks */,
+				59CB6E4F1C16BA5400C8D368 /* libLoadBalancing-cpp_release_iphoneos.a in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
@@ -329,7 +329,7 @@
 				5946CA521C1451D800DCFD86 /* libPhoton-cpp_release_iphonesimulator.a in Frameworks */,
 				BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */,
 				D44C620C132DFF330009C878 /* OpenAL.framework in Frameworks */,
-				59B053191C145FD0001C13F2 /* libLoadBalancing-cpp_debug_iphoneos.a in Frameworks */,
+				59CB6E4D1C16BA5400C8D368 /* libLoadBalancing-cpp_debug_iphoneos.a in Frameworks */,
 				D44C620E132DFF430009C878 /* AVFoundation.framework in Frameworks */,
 				5946CA4F1C1451D800DCFD86 /* libPhoton-cpp_debug_iphoneos.a in Frameworks */,
 				D44C6210132DFF4E0009C878 /* AudioToolbox.framework in Frameworks */,
@@ -361,7 +361,7 @@
 		080E96DDFE201D6D7F000001 /* ios */ = {
 			isa = PBXGroup;
 			children = (
-				5946B2931C1451C600DCFD86 /* Photon-iOS-Sdk */,
+				5946B2931C1451C600DCFD86 /* Photon-iOS-SDK */,
 				5087E77117EB970100C73F5D /* Icons */,
 				503AE0FA17EB989F00D1A890 /* AppController.h */,
 				503AE0FB17EB989F00D1A890 /* AppController.mm */,
@@ -506,14 +506,14 @@
 			path = ios;
 			sourceTree = SOURCE_ROOT;
 		};
-		5946B2931C1451C600DCFD86 /* Photon-iOS-Sdk */ = {
+		5946B2931C1451C600DCFD86 /* Photon-iOS-SDK */ = {
 			isa = PBXGroup;
 			children = (
-				59B052ED1C145FD0001C13F2 /* inc */,
-				59B053141C145FD0001C13F2 /* lib */,
+				59CB6E201C16BA5400C8D368 /* LoadBalancing-cpp */,
 				5946B2D81C1451C600DCFD86 /* Common-cpp */,
 				5946C0841C1451D700DCFD86 /* Photon-cpp */,
 			);
+			name = "Photon-iOS-SDK";
 			path = "Photon-iOS-Sdk";
 			sourceTree = SOURCE_ROOT;
 		};
@@ -688,90 +688,97 @@
 			path = lib;
 			sourceTree = "<group>";
 		};
-		59B052ED1C145FD0001C13F2 /* inc */ = {
+		59CB6E201C16BA5400C8D368 /* LoadBalancing-cpp */ = {
 			isa = PBXGroup;
 			children = (
-				59B052EE1C145FD0001C13F2 /* AuthenticationValues.h */,
-				59B052EF1C145FD0001C13F2 /* Client.h */,
-				59B052F01C145FD0001C13F2 /* Enums */,
-				59B052F81C145FD0001C13F2 /* FriendInfo.h */,
-				59B052F91C145FD0001C13F2 /* Internal */,
-				59B0530C1C145FD0001C13F2 /* Listener.h */,
-				59B0530D1C145FD0001C13F2 /* LobbyStatsRequest.h */,
-				59B0530E1C145FD0001C13F2 /* LobbyStatsResponse.h */,
-				59B0530F1C145FD0001C13F2 /* MutablePlayer.h */,
-				59B053101C145FD0001C13F2 /* MutableRoom.h */,
-				59B053111C145FD0001C13F2 /* Peer.h */,
-				59B053121C145FD0001C13F2 /* Player.h */,
-				59B053131C145FD0001C13F2 /* Room.h */,
+				59CB6E211C16BA5400C8D368 /* inc */,
+				59CB6E481C16BA5400C8D368 /* lib */,
 			);
-			name = inc;
-			path = "LoadBalancing-cpp/inc";
+			path = "LoadBalancing-cpp";
 			sourceTree = "<group>";
 		};
-		59B052F01C145FD0001C13F2 /* Enums */ = {
+		59CB6E211C16BA5400C8D368 /* inc */ = {
 			isa = PBXGroup;
 			children = (
-				59B052F11C145FD0001C13F2 /* CustomAuthenticationType.h */,
-				59B052F21C145FD0001C13F2 /* DisconnectCause.h */,
-				59B052F31C145FD0001C13F2 /* ErrorCode.h */,
-				59B052F41C145FD0001C13F2 /* LobbyType.h */,
-				59B052F51C145FD0001C13F2 /* MatchmakingMode.h */,
-				59B052F61C145FD0001C13F2 /* PeerStates.h */,
-				59B052F71C145FD0001C13F2 /* ServerType.h */,
+				59CB6E221C16BA5400C8D368 /* AuthenticationValues.h */,
+				59CB6E231C16BA5400C8D368 /* Client.h */,
+				59CB6E241C16BA5400C8D368 /* Enums */,
+				59CB6E2C1C16BA5400C8D368 /* FriendInfo.h */,
+				59CB6E2D1C16BA5400C8D368 /* Internal */,
+				59CB6E401C16BA5400C8D368 /* Listener.h */,
+				59CB6E411C16BA5400C8D368 /* LobbyStatsRequest.h */,
+				59CB6E421C16BA5400C8D368 /* LobbyStatsResponse.h */,
+				59CB6E431C16BA5400C8D368 /* MutablePlayer.h */,
+				59CB6E441C16BA5400C8D368 /* MutableRoom.h */,
+				59CB6E451C16BA5400C8D368 /* Peer.h */,
+				59CB6E461C16BA5400C8D368 /* Player.h */,
+				59CB6E471C16BA5400C8D368 /* Room.h */,
+			);
+			path = inc;
+			sourceTree = "<group>";
+		};
+		59CB6E241C16BA5400C8D368 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				59CB6E251C16BA5400C8D368 /* CustomAuthenticationType.h */,
+				59CB6E261C16BA5400C8D368 /* DisconnectCause.h */,
+				59CB6E271C16BA5400C8D368 /* ErrorCode.h */,
+				59CB6E281C16BA5400C8D368 /* LobbyType.h */,
+				59CB6E291C16BA5400C8D368 /* MatchmakingMode.h */,
+				59CB6E2A1C16BA5400C8D368 /* PeerStates.h */,
+				59CB6E2B1C16BA5400C8D368 /* ServerType.h */,
 			);
 			path = Enums;
 			sourceTree = "<group>";
 		};
-		59B052F91C145FD0001C13F2 /* Internal */ = {
+		59CB6E2D1C16BA5400C8D368 /* Internal */ = {
 			isa = PBXGroup;
 			children = (
-				59B052FA1C145FD0001C13F2 /* AuthenticationValuesSecretSetter.h */,
-				59B052FB1C145FD0001C13F2 /* Enums */,
-				59B053031C145FD0001C13F2 /* MutablePlayerFactory.h */,
-				59B053041C145FD0001C13F2 /* MutableRoomFactory.h */,
-				59B053051C145FD0001C13F2 /* PlayerFactory.h */,
-				59B053061C145FD0001C13F2 /* PlayerMovementInformant.h */,
-				59B053071C145FD0001C13F2 /* PlayerPropertiesCacher.h */,
-				59B053081C145FD0001C13F2 /* PlayerPropertiesUpdateInformant.h */,
-				59B053091C145FD0001C13F2 /* RoomFactory.h */,
-				59B0530A1C145FD0001C13F2 /* RoomPropertiesCacher.h */,
-				59B0530B1C145FD0001C13F2 /* Utils.h */,
+				59CB6E2E1C16BA5400C8D368 /* AuthenticationValuesSecretSetter.h */,
+				59CB6E2F1C16BA5400C8D368 /* Enums */,
+				59CB6E371C16BA5400C8D368 /* MutablePlayerFactory.h */,
+				59CB6E381C16BA5400C8D368 /* MutableRoomFactory.h */,
+				59CB6E391C16BA5400C8D368 /* PlayerFactory.h */,
+				59CB6E3A1C16BA5400C8D368 /* PlayerMovementInformant.h */,
+				59CB6E3B1C16BA5400C8D368 /* PlayerPropertiesCacher.h */,
+				59CB6E3C1C16BA5400C8D368 /* PlayerPropertiesUpdateInformant.h */,
+				59CB6E3D1C16BA5400C8D368 /* RoomFactory.h */,
+				59CB6E3E1C16BA5400C8D368 /* RoomPropertiesCacher.h */,
+				59CB6E3F1C16BA5400C8D368 /* Utils.h */,
 			);
 			path = Internal;
 			sourceTree = "<group>";
 		};
-		59B052FB1C145FD0001C13F2 /* Enums */ = {
+		59CB6E2F1C16BA5400C8D368 /* Enums */ = {
 			isa = PBXGroup;
 			children = (
-				59B052FC1C145FD0001C13F2 /* EventCode.h */,
-				59B052FD1C145FD0001C13F2 /* JoinType.h */,
-				59B052FE1C145FD0001C13F2 /* OperationCode.h */,
-				59B052FF1C145FD0001C13F2 /* ParameterCode.h */,
-				59B053001C145FD0001C13F2 /* Properties */,
+				59CB6E301C16BA5400C8D368 /* EventCode.h */,
+				59CB6E311C16BA5400C8D368 /* JoinType.h */,
+				59CB6E321C16BA5400C8D368 /* OperationCode.h */,
+				59CB6E331C16BA5400C8D368 /* ParameterCode.h */,
+				59CB6E341C16BA5400C8D368 /* Properties */,
 			);
 			path = Enums;
 			sourceTree = "<group>";
 		};
-		59B053001C145FD0001C13F2 /* Properties */ = {
+		59CB6E341C16BA5400C8D368 /* Properties */ = {
 			isa = PBXGroup;
 			children = (
-				59B053011C145FD0001C13F2 /* Player.h */,
-				59B053021C145FD0001C13F2 /* Room.h */,
+				59CB6E351C16BA5400C8D368 /* Player.h */,
+				59CB6E361C16BA5400C8D368 /* Room.h */,
 			);
 			path = Properties;
 			sourceTree = "<group>";
 		};
-		59B053141C145FD0001C13F2 /* lib */ = {
+		59CB6E481C16BA5400C8D368 /* lib */ = {
 			isa = PBXGroup;
 			children = (
-				59B053151C145FD0001C13F2 /* libLoadBalancing-cpp_debug_iphoneos.a */,
-				59B053161C145FD0001C13F2 /* libLoadBalancing-cpp_debug_iphonesimulator.a */,
-				59B053171C145FD0001C13F2 /* libLoadBalancing-cpp_release_iphoneos.a */,
-				59B053181C145FD0001C13F2 /* libLoadBalancing-cpp_release_iphonesimulator.a */,
+				59CB6E491C16BA5400C8D368 /* libLoadBalancing-cpp_debug_iphoneos.a */,
+				59CB6E4A1C16BA5400C8D368 /* libLoadBalancing-cpp_debug_iphonesimulator.a */,
+				59CB6E4B1C16BA5400C8D368 /* libLoadBalancing-cpp_release_iphoneos.a */,
+				59CB6E4C1C16BA5400C8D368 /* libLoadBalancing-cpp_release_iphonesimulator.a */,
 			);
-			name = lib;
-			path = "LoadBalancing-cpp/lib";
+			path = lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -980,14 +987,14 @@
 					"$(inherited)",
 					"$(SRCROOT)/../cocos2d/cocos/platform/ios",
 					"$(SRCROOT)/../cocos2d/cocos/platform/ios/Simulation",
-					"$(SRCROOT)/Photon-iOS-Sdk",
+					"$(SRCROOT)/Photon-iOS-SDK",
 				);
 				INFOPLIST_FILE = ios/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/Photon-iOS-Sdk/Common-cpp/lib",
-					"$(PROJECT_DIR)/Photon-iOS-Sdk/Photon-cpp/lib",
-					"$(PROJECT_DIR)/Photon-iOS-Sdk/LoadBalancing-cpp/lib",
+					"$(PROJECT_DIR)/Photon-iOS-SDK/Common-cpp/lib",
+					"$(PROJECT_DIR)/Photon-iOS-SDK/Photon-cpp/lib",
+					"$(PROJECT_DIR)/Photon-iOS-SDK/LoadBalancing-cpp/lib",
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
@@ -1027,14 +1034,14 @@
 					"$(inherited)",
 					"$(SRCROOT)/../cocos2d/cocos/platform/ios",
 					"$(SRCROOT)/../cocos2d/cocos/platform/ios/Simulation",
-					"$(SRCROOT)/Photon-iOS-Sdk",
+					"$(SRCROOT)/Photon-iOS-SDK",
 				);
 				INFOPLIST_FILE = ios/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/Photon-iOS-Sdk/Common-cpp/lib",
-					"$(PROJECT_DIR)/Photon-iOS-Sdk/Photon-cpp/lib",
-					"$(PROJECT_DIR)/Photon-iOS-Sdk/LoadBalancing-cpp/lib",
+					"$(PROJECT_DIR)/Photon-iOS-SDK/Common-cpp/lib",
+					"$(PROJECT_DIR)/Photon-iOS-SDK/Photon-cpp/lib",
+					"$(PROJECT_DIR)/Photon-iOS-SDK/LoadBalancing-cpp/lib",
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
@@ -1140,7 +1147,6 @@
 					"$(SRCROOT)/../cocos2d/extensions",
 					"$(SRCROOT)/../cocos2d/external",
 					"$(SRCROOT)/../cocos2d/external/chipmunk/include/chipmunk",
-					"$(SRCROOT)/Photon_iOS_Sdk",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
@@ -1171,7 +1177,6 @@
 					"$(SRCROOT)/../cocos2d/extensions",
 					"$(SRCROOT)/../cocos2d/external",
 					"$(SRCROOT)/../cocos2d/external/chipmunk/include/chipmunk",
-					"$(SRCROOT)/Photon_iOS_Sdk",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;

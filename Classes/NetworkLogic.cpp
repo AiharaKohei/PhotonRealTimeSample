@@ -7,7 +7,7 @@
 //
 #include "NetworkLogic.h"
 
-static const ExitGames::Common::JString appId = L"9d34fda7-da31-4d02-8e54-df963f65a3cc"; // set your app id here
+static const ExitGames::Common::JString appId = L"<your appId>"; // set your app id here
 static const ExitGames::Common::JString appVersion = L"1.0";
 static const ExitGames::Common::JString PLAYER_NAME = "iOS";
 
@@ -90,25 +90,25 @@ void NetworkLogic::run(void)
                 sendEvent();
                 switch(this->input)
             {
-                case Input::CREATE_GAME: // leave Game
+                case Input::CREATE_GAME:
                     this->client.opLeaveRoom();
                     this->state = State::LEAVING;
                     break;
-                case Input::JOIN_RANDOM_GAME: // leave Game
+                case Input::JOIN_RANDOM_GAME:
                     this->client.opLeaveRoom(true);
                     this->state = State::LEAVING;
                     break;
-                default: // no or illegal input -> stay waiting for legal input
+                default:
                     break;
             }
                 break;
             case State::LEAVING:
-                break; // wait for callback
+                break;
             case State::LEFT:
                 this->state = State::CONNECTED;
                 break;
             case State::DISCONNECTING:
-                break; // wait for callback
+                break; 
             default:
                 break;        
         }
